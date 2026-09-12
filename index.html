@@ -103,6 +103,20 @@
       <li>📞 +1 (555) 123-4567</li>
       <li>📍 123 Explorer Lane, Travel City</li>
     </ul>
+
+    <form
+      class="contact-form"
+      id="contactForm"
+      action="mailto:hello@wanderly.example"
+      method="POST"
+      enctype="text/plain"
+    >
+      <h3>Send us an email</h3>
+      <input type="text" id="contactName" name="name" placeholder="Your name" required />
+      <input type="email" id="contactEmail" name="email" placeholder="Your email address" required />
+      <textarea id="contactMessage" name="message" rows="4" placeholder="Your message" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
   </section>
 
   <!-- ===== BOOK ===== -->
