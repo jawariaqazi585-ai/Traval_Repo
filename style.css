@@ -232,6 +232,40 @@ section {
   color: var(--muted);
 }
 
+/* ===== TEAM GUIDANCE (About Us) ===== */
+.team-guide {
+  max-width: 680px;
+  margin: 34px auto 0;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 26px 30px;
+}
+
+.team-guide h3 {
+  text-align: center;
+  margin-bottom: 14px;
+  color: var(--ink);
+}
+
+.guide-list {
+  text-align: left;
+  list-style: disc;
+  padding-left: 22px;
+  max-width: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.guide-list code {
+  background: rgba(15, 37, 64, 0.08);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
 /* ===== RESULTS ===== */
 .results-section {
   background: var(--card);
