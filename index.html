@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wanderly | Travel Recommendations</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <a href="#home" class="logo">
+      <span class="logo-mark">✈</span> Wanderly
+    </a>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== HERO / HOME ===== -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h1>Explore the World, One Destination at a Time</h1>
+      <p>
+        Discover breathtaking beaches, ancient temples, and unforgettable cities.
+        Let us help you find your next great adventure.
+      </p>
+
+      <!-- SEARCH BAR -->
+      <form class="search-bar" id="searchForm">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search 'beach', 'temple', or a country / city name..."
+          autocomplete="off"
+        />
+        <button type="submit" class="btn btn-primary" id="searchBtn">Search</button>
+        <button type="button" class="btn btn-outline" id="clearBtn">Clear</button>
+      </form>
+
+      <a href="#book" class="btn btn-book">Book Now</a>
+
+      <div class="social-links">
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24"><path d="M13.5 21v-7.5H16l.5-3H13.5V8.5c0-.87.24-1.46 1.5-1.46H16.5V4.34C16.24 4.3 15.36 4.22 14.32 4.22c-2.16 0-3.64 1.32-3.64 3.74V10.5H8v3h2.68V21h2.82z"/></svg>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 1.17.05 1.97.24 2.43.4a4.9 4.9 0 0 1 1.77 1.15 4.9 4.9 0 0 1 1.15 1.77c.16.46.35 1.26.4 2.43.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.24 1.97-.4 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.46.16-1.26.35-2.43.4-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.97-.24-2.43-.4a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.16-.46-.35-1.26-.4-2.43C2.21 15.58 2.2 15.2 2.2 12s.01-3.58.07-4.85c.05-1.17.24-1.97.4-2.43a4.9 4.9 0 0 1 1.15-1.77A4.9 4.9 0 0 1 5.6 1.8c.46-.16 1.26-.35 2.43-.4C9.3 1.34 9.68 1.33 12.87 1.33zm0 1.8c-3.15 0-3.5.01-4.73.07-1 .04-1.54.21-1.9.35-.48.19-.82.41-1.18.77-.36.36-.58.7-.77 1.18-.14.36-.31.9-.35 1.9-.06 1.08-.07 1.4-.07 4.63s.01 3.55.07 4.63c.04 1 .21 1.54.35 1.9.19.48.41.82.77 1.18.36.36.7.58 1.18.77.36.14.9.31 1.9.35 1.08.06 1.4.07 4.63.07s3.55-.01 4.63-.07c1-.04 1.54-.21 1.9-.35.48-.19.82-.41 1.18-.77.36-.36.58-.7.77-1.18.14-.36.31-.9.35-1.9.06-1.08.07-1.4.07-4.63s-.01-3.55-.07-4.63c-.04-1-.21-1.54-.35-1.9a3.1 3.1 0 0 0-.77-1.18 3.1 3.1 0 0 0-1.18-.77c-.36-.14-.9-.31-1.9-.35C15.5 4.01 15.15 4 12 4zm0 4.6a5.4 5.4 0 1 1 0 10.8 5.4 5.4 0 0 1 0-10.8zm0 1.8a3.6 3.6 0 1 0 0 7.2 3.6 3.6 0 0 0 0-7.2zm5.6-2a1.26 1.26 0 1 1-2.52 0 1.26 1.26 0 0 1 2.52 0z"/></svg>
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+          <svg viewBox="0 0 24 24"><path d="M22 5.9c-.75.33-1.55.56-2.39.66a4.17 4.17 0 0 0 1.83-2.3c-.8.48-1.7.82-2.65 1a4.15 4.15 0 0 0-7.08 3.79A11.78 11.78 0 0 1 3.16 4.6a4.15 4.15 0 0 0 1.29 5.55c-.68-.02-1.32-.21-1.88-.52v.05a4.16 4.16 0 0 0 3.33 4.08c-.62.17-1.28.2-1.94.07a4.16 4.16 0 0 0 3.88 2.89A8.35 8.35 0 0 1 2 18.4a11.77 11.77 0 0 0 6.37 1.87c7.65 0 11.84-6.34 11.84-11.84 0-.18 0-.36-.01-.54A8.4 8.4 0 0 0 22 5.9z"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESULTS ===== -->
+  <section id="results" class="results-section" hidden>
+    <h2 class="section-title">Recommendations for you</h2>
+    <div class="results-grid" id="resultsGrid"></div>
+  </section>
+
+  <!-- ===== ABOUT US ===== -->
+  <section id="about" class="about-section">
+    <h2 class="section-title">About Us</h2>
+    <p class="section-text">
+      Wanderly is a small team of travel lovers on a mission to make discovering your
+      next destination effortless. We curate beaches, temples, and cities from around
+      the globe and match them to whatever you're in the mood to explore — whether
+      that's sun and sand, ancient history, or a buzzing new city.
+    </p>
+  </section>
+
+  <!-- ===== CONTACT US ===== -->
+  <section id="contact" class="contact-section">
+    <h2 class="section-title">Contact Us</h2>
+    <p class="section-text">Have a question or a destination you think we should feature?</p>
+    <ul class="contact-list">
+      <li>📧 hello@wanderly.example</li>
+      <li>📞 +1 (555) 123-4567</li>
+      <li>📍 123 Explorer Lane, Travel City</li>
+    </ul>
+  </section>
+
+  <!-- ===== BOOK ===== -->
+  <section id="book" class="book-section">
+    <h2 class="section-title">Ready for your next trip?</h2>
+    <p class="section-text">Search a destination above, then book your favorite in a click.</p>
+    <a href="#home" class="btn btn-primary">Start Exploring</a>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span> Wanderly. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

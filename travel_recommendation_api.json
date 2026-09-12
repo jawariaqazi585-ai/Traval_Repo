@@ -1,0 +1,76 @@
+{
+  "countries": [
+    {
+      "id": "australia",
+      "name": "Australia",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "https://images.unsplash.com/photo-1524293581917-878a6d017c71?auto=format&fit=crop&w=800&q=80",
+          "description": "A vibrant harbour city famous for the Sydney Opera House, golden beaches, and a lively arts scene."
+        },
+        {
+          "name": "Melbourne, Australia",
+          "imageUrl": "https://images.unsplash.com/photo-1514395462725-fb4566210144?auto=format&fit=crop&w=800&q=80",
+          "description": "Known for its laneway cafes, street art, and a rich mix of culture, sport, and food."
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=80",
+          "description": "A dazzling blend of ultramodern skyscrapers, historic temples, and world-class cuisine."
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=800&q=80",
+          "description": "Japan's cultural heart, filled with serene temples, gardens, and traditional wooden houses."
+        }
+      ]
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "cities": [
+        {
+          "name": "Paris, France",
+          "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80",
+          "description": "The City of Light, home to the Eiffel Tower, world-class museums, and charming cafes."
+        },
+        {
+          "name": "Nice, France",
+          "imageUrl": "https://images.unsplash.com/photo-1491166617655-0723a0999cfc?auto=format&fit=crop&w=800&q=80",
+          "description": "A sun-soaked Riviera city with a stunning promenade along the sparkling Mediterranean coast."
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "https://images.unsplash.com/photo-1600100397608-f000f5b4a4f8?auto=format&fit=crop&w=800&q=80",
+      "description": "The largest religious monument in the world, a breathtaking symbol of the Khmer Empire."
+    },
+    {
+      "name": "Kinkaku-ji, Japan",
+      "imageUrl": "https://images.unsplash.com/photo-1478436127897-769e1b3f0f36?auto=format&fit=crop&w=800&q=80",
+      "description": "The Golden Pavilion, a Zen Buddhist temple in Kyoto covered in gleaming gold leaf."
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "https://images.unsplash.com/photo-1589979481223-deb893043163?auto=format&fit=crop&w=800&q=80",
+      "description": "Turquoise lagoons and overwater bungalows make this island a tropical paradise."
+    },
+    {
+      "name": "Copacabana Beach, Brazil",
+      "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=800&q=80",
+      "description": "A lively stretch of sand in Rio de Janeiro, famous for its beach culture and mosaic promenade."
+    }
+  ]
+}
